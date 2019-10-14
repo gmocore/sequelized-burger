@@ -1,5 +1,6 @@
 const express = require("express");
 const PORT = process.env.PORT || 3000;
+const db = require('./models');
 
 const app = express();
 
@@ -19,5 +20,7 @@ const routes = require("./controllers/burgers_controller.js");
 // use imported routes
 app.use(routes);
 
+db.sequelize.sync().then(()=> app.listen(PORT, () => console.log(`listening on ${PORT}`)));
+
 // start server
-app.listen(PORT, () => console.log(`listening on ${PORT}`));
+// app.listen(PORT, () => console.log(`listening on ${PORT}`));
