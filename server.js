@@ -20,7 +20,6 @@ const routes = require("./controllers/burgers_controller.js");
 // use imported routes
 app.use(routes);
 
+// sync table and start server
 db.sequelize.sync().then(()=> app.listen(PORT, () => console.log(`listening on ${PORT}`)));
 
-// start server
-// app.listen(PORT, () => console.log(`listening on ${PORT}`));
