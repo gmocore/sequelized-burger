@@ -22,6 +22,6 @@
     "host": "hngomrlb3vfq3jcr.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "operatorsAliases": false,
-    "use_env_variable": "mysql://mtwpn26h8hjiii2z:r00hnqvfhe9as4f9@hngomrlb3vfq3jcr.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/crbmw8gcpvmu6lcn"
+    "use_env_variable": "JAWSDB_URL"
   }
 }
