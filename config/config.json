@@ -1,26 +1,27 @@
 {
   "development": {
-    "username": "root",
-    "password": "gerritt",
-    "database": "burger_db",
-    "host": "127.0.0.1",
+    "username": "mtwpn26h8hjiii2z",
+    "password": "r00hnqvfhe9as4f9",
+    "database": "crbmw8gcpvmu6lcn",
+    "host": "hngomrlb3vfq3jcr.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "operatorsAliases": false
   },
   "test": {
-    "username": "root",
-    "password": "gerritt",
-    "database": "burger_db",
-    "host": "127.0.0.1",
+    "username": "mtwpn26h8hjiii2z",
+    "password": "r00hnqvfhe9as4f9",
+    "database": "crbmw8gcpvmu6lcn",
+    "host": "hngomrlb3vfq3jcr.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
     "operatorsAliases": false
   },
   "production": {
-    "username": "root",
-    "password": "gerritt",
-    "database": "burger_db",
-    "host": "127.0.0.1",
+    "username": "mtwpn26h8hjiii2z",
+    "password": "r00hnqvfhe9as4f9",
+    "database": "crbmw8gcpvmu6lcn",
+    "host": "hngomrlb3vfq3jcr.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql",
-    "operatorsAliases": false
+    "operatorsAliases": false,
+    "use_env_variable":"JAWSDB_URL"
   }
 }
